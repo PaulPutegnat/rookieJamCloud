@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletT2 : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
@@ -11,6 +11,7 @@ public class Bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * speed;
+        Destroy(gameObject, 5);
     }
 
     void OnTriggerEnter2D(Collider2D trucQuiMeToucheDeOuf){

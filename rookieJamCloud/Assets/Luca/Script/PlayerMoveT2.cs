@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerMoveT2 : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speedH;
@@ -42,9 +42,10 @@ public class PlayerMove : MonoBehaviour
            }
 
 
-           if(Input.GetMouseButtonDown(0)){                
+           if(Input.GetKeyDown(KeyCode.Space)){                
               if (timeBtwAttack <=0){
                Instantiate(bullet, firePoint.position, firePoint.rotation);
+               GameObject.Find("GestionInventaire").GetComponent<InventaireT2>().Deleteitem();
                timeBtwAttack = startTimeBtwAttack;
                }
            } else {
