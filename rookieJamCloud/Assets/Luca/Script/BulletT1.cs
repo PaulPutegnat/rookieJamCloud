@@ -6,6 +6,7 @@ public class BulletT1 : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
+    public int damage;
 
     void Start()
     {
@@ -14,9 +15,19 @@ public class BulletT1 : MonoBehaviour
         Destroy(gameObject, 5);
     }
 
-    void OnTriggerEnter2D(Collider2D trucQuiMeToucheDeOuf){
-        if (trucQuiMeToucheDeOuf.gameObject.tag == "Ground"){  
-            Destroy(gameObject);    
+    void OnTriggerEnter2D(Collider2D col){
+        if(gameObject.tag == "Damage"){
+            if (col.gameObject.tag == "Player"){  
+            col.GetComponent<PlayerHPT1>().takeDamage(damage);
+            Destroy(gameObject);
+        }
+        }
+
+        if(gameObject.tag == "PlayerBullet"){
+            if (col.gameObject.tag == "Enemy"){  
+            col.GetComponent<HpEnemyT1>().takeDamage(damage);
+            Destroy(gameObject);
+        }
         }
     }
 }
