@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class Item : ScriptableObject
+public class ItemT2 : ScriptableObject
 {
     public new string name;
     public int damageValue;
