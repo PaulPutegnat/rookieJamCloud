@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 576936}
   - component: {fileID: 576937}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: MenuPrincipale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,8 +210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000019073, y: -207.3}
-  m_SizeDelta: {x: 595.1584, y: 156.05621}
+  m_AnchoredPosition: {x: 5.3833, y: 0.0000016689}
+  m_SizeDelta: {x: 767.33075, y: 137.66882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119986173
 MonoBehaviour:
@@ -756,8 +756,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.0000019073}
-  m_SizeDelta: {x: 778.0974, y: 141.80432}
+  m_AnchoredPosition: {x: 0.000022888, y: -197}
+  m_SizeDelta: {x: 599.2385, y: 133.44644}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158230018
 MonoBehaviour:
@@ -801,7 +801,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1158230019}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 576937}
+        m_TargetAssemblyTypeName: T1MenuPrincipale, Assembly-CSharp
+        m_MethodName: quitterJeu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1158230019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,7 +1130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Controles
+  m_text: Quitter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d3a5d25f1f27b1441b384728503ac080, type: 2}
   m_sharedMaterial: {fileID: 3906995817464347283, guid: d3a5d25f1f27b1441b384728503ac080, type: 2}
@@ -1343,13 +1355,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 201c41e3b9201b74ba61ceb3bd586c29, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 576937}
+        m_TargetAssemblyTypeName: T1MenuPrincipale, Assembly-CSharp
+        m_MethodName: lancerJeu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1622,7 +1634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: quitter
+  m_text: Controles
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d3a5d25f1f27b1441b384728503ac080, type: 2}
   m_sharedMaterial: {fileID: 3906995817464347283, guid: d3a5d25f1f27b1441b384728503ac080, type: 2}
