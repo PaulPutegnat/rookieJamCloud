@@ -27,7 +27,7 @@ public class PlayerMoveT1 : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(speedHBase, speedVBase); //Movement *****************************************************************************************
-
+        if(!anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerAttack")){
            if(Input.GetKey("z")){
                speedVBase = speedV;
            }else if(Input.GetKey("s")){
@@ -48,12 +48,17 @@ public class PlayerMoveT1 : MonoBehaviour
            }else{
                anim.SetBool("Move", true);
            }
+        }else{
+            speedHBase = 0;
+            speedVBase = 0;
+        }
 
 
            if(Input.GetKeyDown(KeyCode.Space)){ // Shoot ****************************************************************************************************************
                 if (timeBtwAttack <=0){
-                        Shooting();
+                        StartCoroutine("Shooting");
                         timeBtwAttack = startTimeBtwAttack;
+                        anim.SetTrigger("Attack");
                 }
                 } else {
                     timeBtwAttack -= Time.deltaTime;
@@ -63,7 +68,8 @@ public class PlayerMoveT1 : MonoBehaviour
     }
 
 
-    void Shooting(){
+    IEnumerator Shooting(){
+        yield return new WaitForSeconds(0.2f);
         var inv = GameObject.Find("GestionInventaire").GetComponent<InventaireT1>();
         if(inv.Deck[0].name == "Knife"){
             Instantiate(knife, firePoint.position, firePoint.rotation);
