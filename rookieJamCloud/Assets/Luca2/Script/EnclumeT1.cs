@@ -44,7 +44,9 @@ public class EnclumeT1 : MonoBehaviour
 
     IEnumerator damage2(){
         hitBox.enabled = true;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
+        hitBox.enabled = false;
+        yield return new WaitForSeconds(0.7f);
         Destroy(gameObject);
     }
 

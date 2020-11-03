@@ -15,7 +15,9 @@ public class BulletT1 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * speed;
-        Destroy(gameObject, timeToDelete);
+        if(timeToDelete != 0){
+            Destroy(gameObject, timeToDelete);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D col){
