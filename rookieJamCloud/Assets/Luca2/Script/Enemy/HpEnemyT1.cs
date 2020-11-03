@@ -31,5 +31,13 @@ public class HpEnemyT1 : MonoBehaviour
 
     public void takeDamage(int damage){
         currentHP -= damage;
+        StartCoroutine("InvulFrame");
+    }
+
+
+    IEnumerator InvulFrame(){
+        GetComponent<SpriteRenderer>().color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        GetComponent<SpriteRenderer>().color = Color.white;
     }
 }
