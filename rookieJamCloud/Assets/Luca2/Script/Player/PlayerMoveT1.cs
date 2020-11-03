@@ -13,6 +13,10 @@ public class PlayerMoveT1 : MonoBehaviour
 
     public Transform firePoint;
     public GameObject knife;
+    public GameObject boomerang;
+    public GameObject enclume;
+    public Transform firePointB;
+    public GameObject boxer;
     public GameObject bullet;
 
     private float timeBtwAttack;
@@ -73,8 +77,12 @@ public class PlayerMoveT1 : MonoBehaviour
         var inv = GameObject.Find("GestionInventaire").GetComponent<InventaireT1>();
         if(inv.Deck[0].name == "Knife"){
             Instantiate(knife, firePoint.position, firePoint.rotation);
-        }else{
-            Instantiate(bullet, firePoint.position, firePoint.rotation);
+        }else if(inv.Deck[0].name == "Gant De Boxe"){
+            Instantiate(boxer, firePointB.position, firePointB.rotation);
+        }else if(inv.Deck[0].name == "Boomerang"){
+            Instantiate(boomerang, firePoint.position, firePoint.rotation);
+        }else if(inv.Deck[0].name == "Enclume"){
+            Instantiate(enclume, firePoint.position, firePoint.rotation);
         }
         inv.Deleteitem();
         

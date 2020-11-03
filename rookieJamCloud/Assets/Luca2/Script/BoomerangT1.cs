@@ -2,20 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletT1 : MonoBehaviour
+public class BoomerangT1 : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
     public int damage;
-    public float timeToDelete;
-
-    public bool destroyOnContact;
+    public int hp = 2;
+    public bool wait2sec;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update(){
         rb.velocity = transform.right * speed;
-        Destroy(gameObject, timeToDelete);
+        if(hp <= 0){
+            Destroy(gameObject);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D col){
@@ -29,10 +33,21 @@ public class BulletT1 : MonoBehaviour
         if(gameObject.tag == "PlayerBullet"){
             if (col.gameObject.tag == "Enemy"){  
             col.GetComponent<HpEnemyT1>().takeDamage(damage);
-            if(destroyOnContact){
-                Destroy(gameObject);
-            }
         }
-        }
+        }   
+
+        if (col.gameObject.tag == "Wall"){ 
+            if(!wait2sec){
+                speed *= -1;
+                wait2sec = true;
+                hp -= 1;
+                StartCoroutine("wait");
+            } 
+        }     
+    }
+
+    IEnumerator wait(){
+        yield return new WaitForSeconds(0.25f);
+        wait2sec = false;
     }
 }
