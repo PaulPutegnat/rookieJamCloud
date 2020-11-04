@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4321403057121550495}
   - component: {fileID: 1873973317256141976}
   - component: {fileID: 2386978938681923715}
+  - component: {fileID: 1675989649939345584}
   m_Layer: 0
   m_Name: boomrang
   m_TagString: PlayerBullet
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5294106540526649687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.62, y: -1.28, z: 0}
-  m_LocalScale: {x: 0.211671, y: 0.211671, z: 0.211671}
+  m_LocalScale: {x: 1.0848774, y: 1.0848774, z: 1.0848774}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d205579cc14c66a45a1ce00344d2b3d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c63ce9c3a5d0ec47b63fba69a84ce74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1873973317256141976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,18 +120,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -4.6278853}
+  m_Offset: {x: -0.2, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
+    oldSize: {x: 1.8, y: 0.7}
     newSize: {x: 5.12, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.12, y: 5.8226748}
+  m_Size: {x: 2.15, y: 1.79}
   m_EdgeRadius: 0
 --- !u!114 &2386978938681923715
 MonoBehaviour:
@@ -148,3 +149,22 @@ MonoBehaviour:
   damage: 15
   hp: 2
   wait2sec: 0
+--- !u!95 &1675989649939345584
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5294106540526649687}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

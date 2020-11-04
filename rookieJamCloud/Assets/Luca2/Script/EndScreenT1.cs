@@ -32,11 +32,20 @@ public class EndScreenT1 : MonoBehaviour
     }
 
     IEnumerator gotonextscene(){
-        transition.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-        cam1.SetActive(false);
-        cam2.SetActive(true);
-        GameObject.Find("Player").GetComponent<Transform>().transform.position = spawn2;
-        GameObject.Find("WinTP").GetComponent<WinBetweenSceneT1>().return2();
+        if(number == 2){
+            Debug.Log("C fini t un bg wola");
+        }else{
+            transition.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            cam1.SetActive(false);
+            cam2.SetActive(true);
+            GameObject.Find("Player").GetComponent<Transform>().transform.position = spawn2;
+            yield return new WaitForSeconds(0.2f);
+            transition.SetActive(false);
+            GameObject.Find("EnemyList").GetComponent<EnemyListT1>().creatEnemy();
+            GameObject.Find("WinTP").GetComponent<WinBetweenSceneT1>().return2();
+            yield return new WaitForSeconds(1f);
+            transition.SetActive(false);
+        }
     }
 }

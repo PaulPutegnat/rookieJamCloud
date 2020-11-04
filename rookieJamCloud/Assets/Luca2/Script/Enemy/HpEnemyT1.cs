@@ -21,8 +21,11 @@ public class HpEnemyT1 : MonoBehaviour
             GameObject.Find("EnemyList").GetComponent<EnemyListT1>().numberOfEnnemies -= 1;
 
             if(mother){
-                son.GetComponent<FollowT1>().enabled = false;
-                son.GetComponent<EnemyMoveT1>().enabled = true;
+                if(son){
+                    var sonReal = GameObject.Find(son.name);
+                    sonReal.GetComponent<FollowT1>().enabled = false;
+                    sonReal.GetComponent<EnemyMoveT1>().enabled = true;
+                }
             }
             
             Destroy(gameObject);
