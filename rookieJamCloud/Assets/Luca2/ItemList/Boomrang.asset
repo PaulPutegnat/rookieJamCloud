@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Boomerang
   damageValue: 15
   description: "Est lanc\xE9 tout droit puis revient"
-  image: {fileID: 21300000, guid: d205579cc14c66a45a1ce00344d2b3d3, type: 3}
+  image: {fileID: 21300000, guid: a30ec12c4c53a454fb08872a3f6a3aa9, type: 3}

@@ -24,7 +24,9 @@ public class BulletT1 : MonoBehaviour
         if(gameObject.tag == "Damage"){
             if (col.gameObject.tag == "Player"){  
             col.GetComponent<PlayerHPT1>().takeDamage(damage);
-            Destroy(gameObject);
+            if(destroyOnContact){
+                Destroy(gameObject);
+            }
         }
         }
 

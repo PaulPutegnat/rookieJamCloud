@@ -10,6 +10,8 @@ public class HpEnemyT1 : MonoBehaviour
     public bool mother;
     public GameObject son;
 
+    public GameObject blast;
+
     void Start()
     {
         currentHP = maxHp;
@@ -27,7 +29,7 @@ public class HpEnemyT1 : MonoBehaviour
                     sonReal.GetComponent<EnemyMoveT1>().enabled = true;
                 }
             }
-            
+            Instantiate(blast, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }

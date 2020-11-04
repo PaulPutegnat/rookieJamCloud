@@ -15,6 +15,14 @@ public class PlayerMoveT1 : MonoBehaviour
     public GameObject knife;
     public GameObject boomerang;
     public GameObject enclume;
+    public GameObject ballon;
+
+    public GameObject tornade1;
+    public GameObject tornade2;
+    public GameObject tornade3;
+
+    public GameObject tomate;
+
     public Transform firePointB;
     public GameObject boxer;
     public GameObject bullet;
@@ -83,6 +91,19 @@ public class PlayerMoveT1 : MonoBehaviour
             Instantiate(boomerang, firePoint.position, firePoint.rotation);
         }else if(inv.Deck[0].name == "Enclume"){
             Instantiate(enclume, firePoint.position, firePoint.rotation);
+        }else if(inv.Deck[0].name == "Ballon"){
+            Instantiate(ballon, firePoint.position, firePoint.rotation);
+        }else if(inv.Deck[0].name == "Sauce"){
+            Instantiate(tomate, firePoint.position, firePoint.rotation);
+        }else if(inv.Deck[0].name == "Tornade"){
+            var number = GameObject.Find("EnemyList").GetComponent<EnemyListT1>();
+            if(number.number == 1){
+                Instantiate(tornade1, firePoint.position, firePoint.rotation);
+            }else if(number.number == 2){
+                Instantiate(tornade2, firePoint.position, firePoint.rotation);
+            }else if(number.number == 3){
+                Instantiate(tornade3, firePoint.position, firePoint.rotation);
+            }    
         }
         inv.Deleteitem();
         

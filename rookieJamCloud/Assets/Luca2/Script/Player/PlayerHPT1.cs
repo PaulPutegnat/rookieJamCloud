@@ -1,13 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHPT1 : MonoBehaviour
 {
     public int maxHp;
     public int currentHP;
 
+    public GameObject heart1;
+    public GameObject heart2;
+    public GameObject heart3;
+    public GameObject heart4;
+    public GameObject heart5;
+
     public bool isInvulneary;
+
+    public bool Onetime;
     void Start()
     {
         currentHP = maxHp;
@@ -22,6 +31,13 @@ public class PlayerHPT1 : MonoBehaviour
             var player = GameObject.Find("Player").GetComponent<SpriteRenderer>();
             player.color = Color.white;
         }
+
+        if(currentHP <= 0) {
+            if(!Onetime){
+                Onetime = true;
+                SceneManager.LoadScene("SceneTest", LoadSceneMode.Single);
+            }
+        }
     }
 
     public void takeDamage(int damage){
@@ -32,6 +48,53 @@ public class PlayerHPT1 : MonoBehaviour
             currentHP -= damage;
             StartCoroutine("InvulFrame");
         }
+
+        ActuLife();
+    }
+
+    void ActuLife(){
+        if(currentHP == 5){
+            heart1.SetActive(true);
+            heart2.SetActive(true);
+            heart3.SetActive(true);
+            heart4.SetActive(true);
+            heart5.SetActive(true);
+        }
+        if(currentHP == 4){
+            heart1.SetActive(true);
+            heart2.SetActive(true);
+            heart3.SetActive(true);
+            heart4.SetActive(true);
+            heart5.SetActive(false);
+        }
+        if(currentHP == 3){
+            heart1.SetActive(true);
+            heart2.SetActive(true);
+            heart3.SetActive(true);
+            heart4.SetActive(false);
+            heart5.SetActive(false);
+        }
+        if(currentHP == 2){
+            heart1.SetActive(true);
+            heart2.SetActive(true);
+            heart3.SetActive(false);
+            heart4.SetActive(false);
+            heart5.SetActive(false);
+        }
+        if(currentHP == 1){
+            heart1.SetActive(true);
+            heart2.SetActive(false);
+            heart3.SetActive(false);
+            heart4.SetActive(false);
+            heart5.SetActive(false);
+        }if(currentHP == 0){
+            heart1.SetActive(false);
+            heart2.SetActive(false);
+            heart3.SetActive(false);
+            heart4.SetActive(false);
+            heart5.SetActive(false);
+        }
+
     }
 
     IEnumerator InvulFrame(){

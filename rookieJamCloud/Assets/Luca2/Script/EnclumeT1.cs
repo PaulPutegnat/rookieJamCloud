@@ -14,6 +14,8 @@ public class EnclumeT1 : MonoBehaviour
     public Collider2D hitBox;
     public int damage;
 
+    public bool OneTime;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,9 +28,12 @@ public class EnclumeT1 : MonoBehaviour
         rb.velocity = new Vector2(speedH, speedV);
 
         if(transform.position.y < limit.y + 1){
-            speedH = 0;
-            speedV = 0;
-            StartCoroutine("damage2");
+            if(!OneTime){
+                OneTime = true;
+                speedH = 0;
+                speedV = 0;
+                StartCoroutine("damage2");
+            }
         }
     }
 

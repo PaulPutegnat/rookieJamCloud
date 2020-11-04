@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Knife
   damageValue: 20
   description: Part en ligne droite
-  image: {fileID: 21300000, guid: a2ecbf17ddea82e4b853cf3a4a267771, type: 3}
+  image: {fileID: 21300000, guid: de350f02b58dc3842a2b8a93c13bd3b4, type: 3}

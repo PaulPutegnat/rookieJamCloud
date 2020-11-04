@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndScreenT1 : MonoBehaviour
 {
@@ -33,7 +34,9 @@ public class EndScreenT1 : MonoBehaviour
 
     IEnumerator gotonextscene(){
         if(number == 2){
-            Debug.Log("C fini t un bg wola");
+            transition.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            SceneManager.LoadScene("EndingT1", LoadSceneMode.Single);
         }else{
             transition.SetActive(true);
             yield return new WaitForSeconds(0.5f);
