@@ -10,6 +10,7 @@ public class T1ItemUiHandle : MonoBehaviour
     public Image ImageWeapon;
 
     public int number;
+    public int id;
     public bool done;
 
     public TextMeshProUGUI text1;
@@ -17,7 +18,7 @@ public class T1ItemUiHandle : MonoBehaviour
 
     public void getRandomweapon()
     {
-        int id = Random.Range(0, Armes.Count);
+        id = Random.Range(0, Armes.Count);
         ImageWeapon.sprite = Armes[id];
         if(number == 1){
         if(id == 0){
