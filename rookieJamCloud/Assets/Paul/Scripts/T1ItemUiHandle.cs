@@ -44,6 +44,10 @@ public class T1ItemUiHandle : MonoBehaviour
             GameObject.Find("LogoSystem").GetComponent<LogoSystem>().logo1 = 5;
             text1.text = "Lance loin en cloche";
         }
+        if(id == 6){
+            GameObject.Find("LogoSystem").GetComponent<LogoSystem>().logo1 = 6;
+            text1.text = "Frappe devant soi";
+        }
         }
 
 
@@ -71,6 +75,10 @@ public class T1ItemUiHandle : MonoBehaviour
         if(id == 5){
             GameObject.Find("LogoSystem").GetComponent<LogoSystem>().logo2 = 5;
             text2.text = "Lance loin en cloche";
+        }
+        if(id == 6){
+            GameObject.Find("LogoSystem").GetComponent<LogoSystem>().logo2 = 6;
+            text2.text = "Frappe devant soi";
         }
         }
         GameObject.Find("LogoSystem").GetComponent<LogoSystem>().SaveLogo();

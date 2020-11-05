@@ -3629,6 +3629,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 71d3125ba3bb0d44ba0ef1079704b69b, type: 3}
+    - target: {fileID: 3242512133848999423, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4169480868436690068, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.13
@@ -7397,6 +7401,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 71d3125ba3bb0d44ba0ef1079704b69b, type: 3}
+    - target: {fileID: 3242512133848999423, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4169480868436690068, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.13
@@ -11761,7 +11769,7 @@ MonoBehaviour:
   firePointB: {fileID: 263707919}
   boxer: {fileID: 2459957953905258858, guid: eeeec9dec71827342835fb568b776c90, type: 3}
   bullet: {fileID: 6024451161989674394, guid: 1e4a6acb7d5d8ef4e92d064961228e0a, type: 3}
-  startTimeBtwAttack: 1.25
+  startTimeBtwAttack: 0.75
 --- !u!1 &1939118464
 GameObject:
   m_ObjectHideFlags: 0
@@ -12114,6 +12122,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: daf97c455cd235347b5e6a7ddc1c734f, type: 2}
   - {fileID: 11400000, guid: 37cc0653ac2670a45b2d256adf0d148c, type: 2}
   - {fileID: 11400000, guid: 7fab2389b3a960d45b799072860378b7, type: 2}
+  - {fileID: 11400000, guid: 877b00779a449024a8a5c462b643d7bf, type: 2}
   maxItem: 5
 --- !u!1 &2019227646
 GameObject:
@@ -12302,6 +12311,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 71d3125ba3bb0d44ba0ef1079704b69b, type: 3}
+    - target: {fileID: 3242512133848999423, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4169480868436690068, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.13

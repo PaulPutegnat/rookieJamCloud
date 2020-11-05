@@ -1529,6 +1529,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6ddde110d6a6ca0498e35b5b34deab4e, type: 3}
   - {fileID: 21300000, guid: c0c2abb456f9bd140b3deca244f403d5, type: 3}
   - {fileID: 21300000, guid: 697eddea262a0f444996323e9716c95c, type: 3}
+  - {fileID: 21300000, guid: aea30f1a8b8b9a6419a12ab57bfc823a, type: 3}
   ImageWeapon: {fileID: 1695365209}
   number: 1
   done: 0
@@ -1838,8 +1839,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 24e1965f7da6bf949bffe16f60bdaf01, type: 3}
   - {fileID: 21300000, guid: 6c63ce9c3a5d0ec47b63fba69a84ce74, type: 3}
   - {fileID: 21300000, guid: 6ddde110d6a6ca0498e35b5b34deab4e, type: 3}
-  - {fileID: 21300000, guid: c0c2abb456f9bd140b3deca244f403d5, type: 3}
   - {fileID: 21300000, guid: 697eddea262a0f444996323e9716c95c, type: 3}
+  - {fileID: 21300000, guid: 697eddea262a0f444996323e9716c95c, type: 3}
+  - {fileID: 21300000, guid: aea30f1a8b8b9a6419a12ab57bfc823a, type: 3}
   ImageWeapon: {fileID: 1168071806}
   number: 2
   done: 0
