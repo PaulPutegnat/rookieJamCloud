@@ -111,6 +111,6 @@ public class PlayerHPT1 : MonoBehaviour
     IEnumerator death(){
         anim.SetTrigger("Death");
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("SceneTest", LoadSceneMode.Single);
+        SceneManager.LoadScene("RouletteTime", LoadSceneMode.Single);
     }
 }
