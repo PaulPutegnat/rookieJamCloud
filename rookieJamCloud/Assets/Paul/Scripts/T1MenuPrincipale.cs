@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class T1MenuPrincipale : MonoBehaviour {
     public void lancerJeu()
     {
-        SceneManager.LoadScene("T1GamePaul", LoadSceneMode.Single);
+        SceneManager.LoadScene("RouletteTime", LoadSceneMode.Single);
     }
 
     public void quitterJeu()
