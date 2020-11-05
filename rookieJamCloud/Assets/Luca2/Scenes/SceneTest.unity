@@ -1759,8 +1759,8 @@ MonoBehaviour:
   DownLimit: {fileID: 856293602}
   LeftLimit: {fileID: 1573659281}
   RightLimit: {fileID: 976015003}
-  speedV: 4
-  speedH: 4
+  speedV: 0
+  speedH: 0
   Vbool: 0
   Hbool: 0
 --- !u!114 &330333343
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 150
+  maxHp: 110
   currentHP: 0
   addScore: 1
   mother: 0
@@ -2109,8 +2109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   targetR: {fileID: 1934568022}
-  speed: 3
-  speedBase: 3
+  speed: 2
+  speedBase: 2
   damageArea: {fileID: 5369522742823234300, guid: 5fa5b1d15ca807649a8230df2ec4b1af, type: 3}
   stopFollow: 0
 --- !u!61 &353289305
@@ -2906,7 +2906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 150
+  maxHp: 110
   currentHP: 0
   addScore: 1
   mother: 0
@@ -2931,8 +2931,8 @@ MonoBehaviour:
   DownLimit: {fileID: 1567705464}
   LeftLimit: {fileID: 1149182452}
   RightLimit: {fileID: 792601769}
-  speedV: 4
-  speedH: 4
+  speedV: 0
+  speedH: 0
   Vbool: 0
   Hbool: 0
 --- !u!95 &396693413
@@ -3825,8 +3825,8 @@ MonoBehaviour:
   DownLimit: {fileID: 1095547549}
   LeftLimit: {fileID: 1949980161}
   RightLimit: {fileID: 2140391691}
-  speedV: 6
-  speedH: 6
+  speedV: 4
+  speedH: 4
   Vbool: 0
   Hbool: 0
 --- !u!61 &487938054
@@ -4254,7 +4254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 150
+  maxHp: 110
   currentHP: 0
   addScore: 1
   mother: 0
@@ -4279,8 +4279,8 @@ MonoBehaviour:
   DownLimit: {fileID: 1830850807}
   LeftLimit: {fileID: 859792796}
   RightLimit: {fileID: 1426815832}
-  speedV: 4
-  speedH: 4
+  speedV: 0
+  speedH: 0
   Vbool: 0
   Hbool: 0
 --- !u!95 &571838318
@@ -5616,8 +5616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   targetR: {fileID: 1934568022}
-  speed: 3
-  speedBase: 3
+  speed: 2
+  speedBase: 2
   damageArea: {fileID: 5369522742823234300, guid: 5fa5b1d15ca807649a8230df2ec4b1af, type: 3}
   stopFollow: 0
 --- !u!114 &701032828
@@ -6303,8 +6303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   targetR: {fileID: 1934568022}
-  speed: 3
-  speedBase: 3
+  speed: 2
+  speedBase: 2
   damageArea: {fileID: 5369522742823234300, guid: 5fa5b1d15ca807649a8230df2ec4b1af, type: 3}
   stopFollow: 0
 --- !u!61 &844127511
@@ -6513,8 +6513,8 @@ MonoBehaviour:
   DownLimit: {fileID: 828763333}
   LeftLimit: {fileID: 1939118465}
   RightLimit: {fileID: 1921114362}
-  speedV: 6
-  speedH: 6
+  speedV: 4
+  speedH: 4
   Vbool: 0
   Hbool: 0
 --- !u!61 &845472910
