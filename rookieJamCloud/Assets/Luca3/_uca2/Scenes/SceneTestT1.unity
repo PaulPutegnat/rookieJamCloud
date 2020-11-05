@@ -1526,7 +1526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 110
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -2091,9 +2091,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 30
+  maxHp: 50
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -2111,8 +2111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   targetR: {fileID: 1934568022}
-  speed: 3
-  speedBase: 3
+  speed: 2.5
+  speedBase: 2.5
   damageArea: {fileID: 5369522742823234300, guid: 5fa5b1d15ca807649a8230df2ec4b1af, type: 3}
   stopFollow: 0
 --- !u!61 &353289305
@@ -2473,7 +2473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 1
   son: {fileID: 775296349}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -2815,7 +2815,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -93, y: -30.197998}
-  m_SizeDelta: {x: 121.294556, y: 121.294556}
+  m_SizeDelta: {x: 339.27713, y: 121.294556}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &376962897
 MonoBehaviour:
@@ -2910,7 +2910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 110
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 1055203685}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -3655,7 +3655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -3794,7 +3794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 775296349}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -4260,7 +4260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 110
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 545876655}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -4616,7 +4616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 461016515}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -4981,7 +4981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 775296349}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -5242,7 +5242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 461016515}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -5622,8 +5622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   targetR: {fileID: 1934568022}
-  speed: 3
-  speedBase: 3
+  speed: 2.5
+  speedBase: 2.5
   damageArea: {fileID: 5369522742823234300, guid: 5fa5b1d15ca807649a8230df2ec4b1af, type: 3}
   stopFollow: 0
 --- !u!114 &701032828
@@ -5638,9 +5638,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 30
+  maxHp: 50
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -5907,7 +5907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -6289,9 +6289,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 30
+  maxHp: 50
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 0}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -6309,8 +6309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {x: 0, y: 0, z: 0}
   targetR: {fileID: 1934568022}
-  speed: 3
-  speedBase: 3
+  speed: 2.5
+  speedBase: 2.5
   damageArea: {fileID: 5369522742823234300, guid: 5fa5b1d15ca807649a8230df2ec4b1af, type: 3}
   stopFollow: 0
 --- !u!61 &844127511
@@ -6484,7 +6484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 318117827}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -7140,7 +7140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 318117827}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -7438,7 +7438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 461016515}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -9511,7 +9511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 1
   son: {fileID: 318117827}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -9956,7 +9956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 775296349}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -10198,7 +10198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 0
   son: {fileID: 318117827}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}
@@ -11171,8 +11171,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23
-  m_fontSizeBase: 23
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11207,7 +11207,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -62.853733, y: 0, z: -61.51651, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11953,7 +11953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   currentHP: 0
-  addScore: 1
+  addScore: 100
   mother: 1
   son: {fileID: 461016515}
   blast: {fileID: 5124982388646430012, guid: bf09ed6ef99e20a4ca6efaef5e2360f2, type: 3}

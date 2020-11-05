@@ -19,7 +19,7 @@ public class LancerApresRT1 : MonoBehaviour
         if(truc1.done){
             if(truc2.done){
                 if(truc1.id == truc2.id){
-                    SceneManager.LoadScene("RouletteTime", LoadSceneMode.Single);
+                    SceneManager.LoadScene("RouletteTimeT1", LoadSceneMode.Single);
                 }else{
                     button.SetActive(true);
                 }
@@ -28,6 +28,6 @@ public class LancerApresRT1 : MonoBehaviour
     }
 
     public void goLanceLeJeu(){
-        SceneManager.LoadScene("SceneTest", LoadSceneMode.Single);
+        SceneManager.LoadScene("SceneTestT1", LoadSceneMode.Single);
     }
 }
