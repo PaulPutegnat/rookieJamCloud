@@ -1752,19 +1752,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60296d9cbaf84f240ac206960261323c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBtwAttack: 4
+  startTimeBtwAttack: 6
   firePoint: {fileID: 615435712}
   bullet: {fileID: 36693089}
   UpLimit: {fileID: 14478525}
   DownLimit: {fileID: 856293602}
   LeftLimit: {fileID: 1573659281}
   RightLimit: {fileID: 976015003}
-  speedV: 4
-  speedH: 4
+  speedV: 2
+  speedH: 2
   Vbool: 0
   Hbool: 0
-  saveV: 4
-  saveH: 4
+  saveV: 2
+  saveH: 2
 --- !u!114 &330333343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,7 +1777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 150
+  maxHp: 110
   currentHP: 0
   addScore: 1
   mother: 0
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 30
   currentHP: 0
   addScore: 1
   mother: 0
@@ -2908,7 +2908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 150
+  maxHp: 110
   currentHP: 0
   addScore: 1
   mother: 0
@@ -2926,19 +2926,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60296d9cbaf84f240ac206960261323c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBtwAttack: 4
+  startTimeBtwAttack: 6
   firePoint: {fileID: 1061264165}
   bullet: {fileID: 1055203685}
   UpLimit: {fileID: 775836711}
   DownLimit: {fileID: 1567705464}
   LeftLimit: {fileID: 1149182452}
   RightLimit: {fileID: 792601769}
-  speedV: 4
-  speedH: 4
+  speedV: 2
+  speedH: 2
   Vbool: 0
   Hbool: 0
-  saveV: 0
-  saveH: 0
+  saveV: 2
+  saveH: 2
 --- !u!95 &396693413
 Animator:
   serializedVersion: 3
@@ -3829,8 +3829,8 @@ MonoBehaviour:
   DownLimit: {fileID: 1095547549}
   LeftLimit: {fileID: 1949980161}
   RightLimit: {fileID: 2140391691}
-  speedV: 6
-  speedH: 6
+  speedV: 4
+  speedH: 4
   Vbool: 0
   Hbool: 0
 --- !u!61 &487938054
@@ -4258,7 +4258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 150
+  maxHp: 110
   currentHP: 0
   addScore: 1
   mother: 0
@@ -4276,19 +4276,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60296d9cbaf84f240ac206960261323c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBtwAttack: 4
+  startTimeBtwAttack: 6
   firePoint: {fileID: 1530221935}
   bullet: {fileID: 545876655}
   UpLimit: {fileID: 1067643652}
   DownLimit: {fileID: 1830850807}
   LeftLimit: {fileID: 859792796}
   RightLimit: {fileID: 1426815832}
-  speedV: 4
-  speedH: 4
+  speedV: 2
+  speedH: 2
   Vbool: 0
   Hbool: 0
-  saveV: 0
-  saveH: 0
+  saveV: 2
+  saveH: 2
 --- !u!95 &571838318
 Animator:
   serializedVersion: 3
@@ -4651,8 +4651,8 @@ MonoBehaviour:
   DownLimit: {fileID: 808823217}
   LeftLimit: {fileID: 764387726}
   RightLimit: {fileID: 1257354142}
-  speedV: 6
-  speedH: 6
+  speedV: 4
+  speedH: 4
   Vbool: 0
   Hbool: 0
 --- !u!61 &614445679
@@ -5638,7 +5638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 30
   currentHP: 0
   addScore: 1
   mother: 0
@@ -6289,7 +6289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e673e006e18d15408398bf9538de982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 30
   currentHP: 0
   addScore: 1
   mother: 0
@@ -6519,8 +6519,8 @@ MonoBehaviour:
   DownLimit: {fileID: 828763333}
   LeftLimit: {fileID: 1939118465}
   RightLimit: {fileID: 1921114362}
-  speedV: 6
-  speedH: 6
+  speedV: 4
+  speedH: 4
   Vbool: 0
   Hbool: 0
 --- !u!61 &845472910
