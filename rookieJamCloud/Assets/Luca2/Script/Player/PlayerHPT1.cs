@@ -48,7 +48,7 @@ public class PlayerHPT1 : MonoBehaviour
     public void takeDamage(int damage){
         var enmyList = GameObject.Find("EnemyList").GetComponent<EnemyListT1>();
         if(isInvulneary || currentHP <= 0 || enmyList.numberOfEnnemies == 0){
-            
+            return;
         }else{
             currentHP -= damage;
             StartCoroutine("InvulFrame");

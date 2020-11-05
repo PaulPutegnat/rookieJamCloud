@@ -1763,6 +1763,8 @@ MonoBehaviour:
   speedH: 4
   Vbool: 0
   Hbool: 0
+  saveV: 4
+  saveH: 4
 --- !u!114 &330333343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2935,6 +2937,8 @@ MonoBehaviour:
   speedH: 4
   Vbool: 0
   Hbool: 0
+  saveV: 0
+  saveH: 0
 --- !u!95 &396693413
 Animator:
   serializedVersion: 3
@@ -4283,6 +4287,8 @@ MonoBehaviour:
   speedH: 4
   Vbool: 0
   Hbool: 0
+  saveV: 0
+  saveH: 0
 --- !u!95 &571838318
 Animator:
   serializedVersion: 3

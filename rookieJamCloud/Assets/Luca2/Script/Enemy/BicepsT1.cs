@@ -23,6 +23,9 @@ public class BicepsT1 : MonoBehaviour
     public bool Vbool;
     public bool Hbool;
 
+    public float saveV;
+    public float saveH;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -62,6 +65,7 @@ public class BicepsT1 : MonoBehaviour
         if(transform.position.x < LeftLimit.position.x || transform.position.x > RightLimit.position.x){
             if(!Hbool){
                 speedH *= -1;
+                saveH *= -1;
                 Hbool = true;
                 StartCoroutine("Hrecov");
             }
@@ -70,6 +74,7 @@ public class BicepsT1 : MonoBehaviour
         if(transform.position.y < DownLimit.position.y || transform.position.y > UpLimit.position.y){
             if(!Vbool){
                 speedV *= -1;
+                saveV *= -1;
                 Vbool = true;
                 StartCoroutine("Vrecov");
             }
@@ -92,8 +97,8 @@ public class BicepsT1 : MonoBehaviour
             speedH = 0;
             speedV = 0;
             yield return new WaitForSeconds(0.3f);
-            speedH = 4;
-            speedV = 4;
+            speedH = saveH;
+            speedV = saveV;
             
         }
 }
