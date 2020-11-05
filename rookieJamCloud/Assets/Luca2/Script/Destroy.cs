@@ -4,8 +4,19 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
+    public float timeToDelete;
+    public bool intro;
     void Start()
     {
-        Destroy(gameObject, 0.33f);
+        if(intro){
+            StartCoroutine("startihyefzihur");
+        }else{
+            Destroy(gameObject, timeToDelete);
+        }
+    }
+
+    IEnumerator startihyefzihur(){
+        yield return new WaitForSecondsRealtime(timeToDelete);
+        Destroy(gameObject, timeToDelete);
     }
 }

@@ -165,5 +165,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   damage: 30
-  timeToDelete: 0
+  timeToDelete: 10
   destroyOnContact: 0

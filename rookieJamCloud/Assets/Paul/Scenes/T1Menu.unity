@@ -538,8 +538,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: retour
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -563,8 +563,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -822,8 +822,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Comment jouer ?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -847,8 +847,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1408,8 +1408,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Retour a la salle
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1819,10 +1819,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Resume :\n\nFrayez vous un chemin dans un supermarche bonde d'emoji, pret
     a en decoudre afin d\u2019obtenir le dernier rouleau de papier toilette a l\u2019aide
-    des 2 armes imposees au debut du premier round\r\n"
+    des 2 armes imposees au debut de la partie\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1955,8 +1955,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jouer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2089,8 +2089,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Comment Jouer?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2223,6 +2223,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'controles :
 
+
     - se deplacer : zqsd
 
     - attaquer : espace
@@ -2230,8 +2231,8 @@ MonoBehaviour:
     -
     pause : echap'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
+  m_sharedMaterial: {fileID: -3909988686229647548, guid: 1c668e6f142f5dc44a54e8d8ea0af2fd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

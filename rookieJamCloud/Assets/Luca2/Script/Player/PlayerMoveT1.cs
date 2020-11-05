@@ -39,7 +39,7 @@ public class PlayerMoveT1 : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(speedHBase, speedVBase); //Movement *****************************************************************************************
-        if(!anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerAttack")){
+        if(!anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerAttack") && !anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerDeath")){
            if(Input.GetKey("z")){
                speedVBase = speedV;
            }else if(Input.GetKey("s")){
@@ -65,7 +65,7 @@ public class PlayerMoveT1 : MonoBehaviour
             speedVBase = 0;
         }
 
-
+        if(!anim.GetCurrentAnimatorStateInfo(0).IsName("PlayerDeath")){
            if(Input.GetKeyDown(KeyCode.Space)){ // Shoot ****************************************************************************************************************
                 if (timeBtwAttack <=0){
                         StartCoroutine("Shooting");
@@ -75,6 +75,7 @@ public class PlayerMoveT1 : MonoBehaviour
                 } else {
                     timeBtwAttack -= Time.deltaTime;
                 }
+        }
            
 
     }

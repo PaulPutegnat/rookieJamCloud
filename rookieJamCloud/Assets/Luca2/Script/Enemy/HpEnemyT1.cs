@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class HpEnemyT1 : MonoBehaviour
 {
-    public int maxHp;
+public int maxHp;
     public int currentHP;
+    public int addScore = 1;
 
     public bool mother;
     public GameObject son;
 
     public GameObject blast;
 
+    private GameObject scoreMaster;
+
     void Start()
     {
         currentHP = maxHp;
+        scoreMaster = GameObject.Find("score_Manager");
     }
 
     void Update()
     {
+        score_Manager scoreManager = scoreMaster.GetComponent<score_Manager>();
+
         if(currentHP <= 0){
             GameObject.Find("EnemyList").GetComponent<EnemyListT1>().numberOfEnnemies -= 1;
 
@@ -31,6 +37,8 @@ public class HpEnemyT1 : MonoBehaviour
             }
             Instantiate(blast, transform.position, transform.rotation);
             Destroy(gameObject);
+
+            scoreManager.Score += addScore;
         }
     }
 

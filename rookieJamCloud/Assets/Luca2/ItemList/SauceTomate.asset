@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Sauce
   damageValue: 10
   description: Lance loin en cloche
-  image: {fileID: 21300000, guid: d8e2af3ebc35e1043bfd631f5ca731a1, type: 3}
+  image: {fileID: 21300000, guid: 5a12abed1ba57324c99914b9be3951c1, type: 3}

@@ -11,6 +11,10 @@ public class SauceT1 : MonoBehaviour
     public float speedH;
     public float speedV;
 
+    public GameObject flaque1;
+    public GameObject flaque2;
+    public GameObject flaque3;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,7 +28,14 @@ public class SauceT1 : MonoBehaviour
         rb.velocity = new Vector2(speedH, rb.velocity.y);
 
         if(transform.position.y < limit.y + 1){
-
+            int number = Random.Range(0, 3);
+            if(number == 0){
+                Instantiate(flaque1, transform.position, transform.rotation);
+            }else if(number == 1){
+                Instantiate(flaque2, transform.position, transform.rotation);
+            }else if(number == 2){
+                Instantiate(flaque3, transform.position, transform.rotation);
+            }
             Destroy(gameObject);
             
         }

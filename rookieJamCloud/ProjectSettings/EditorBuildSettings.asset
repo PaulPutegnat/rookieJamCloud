@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Paul/Scenes/T1GamePaul.unity
     guid: 9d0f8ba2351a2844fa97e74028fbf9af
   - enabled: 1
+    path: Assets/Luca2/Scenes/RouletteTime.unity
+    guid: b271ffdfbb7d3e34ca499e5ffe5a64f6
+  - enabled: 1
     path: Assets/Luca2/Scenes/SceneTest.unity
     guid: 5623baffa3390ae45a3328ee6ce0b937
   - enabled: 1
