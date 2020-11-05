@@ -15,4 +15,4 @@ MonoBehaviour:
   name: Tornade
   damageValue: 10
   description: Avance en zigzage
-  image: {fileID: 21300000, guid: c0c2abb456f9bd140b3deca244f403d5, type: 3}
+  image: {fileID: 21300000, guid: 697eddea262a0f444996323e9716c95c, type: 3}
