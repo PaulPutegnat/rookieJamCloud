@@ -13,6 +13,7 @@ public class PlayerHPT1 : MonoBehaviour
     public GameObject heart3;
     public GameObject heart4;
     public GameObject heart5;
+    public Animator anim;
 
     public bool isInvulneary;
 
@@ -35,8 +36,12 @@ public class PlayerHPT1 : MonoBehaviour
         if(currentHP <= 0) {
             if(!Onetime){
                 Onetime = true;
-                SceneManager.LoadScene("SceneTest", LoadSceneMode.Single);
+                StartCoroutine("death");
             }
+        }
+
+        if(currentHP > 5){
+            currentHP = 5;
         }
     }
 
@@ -52,7 +57,7 @@ public class PlayerHPT1 : MonoBehaviour
         ActuLife();
     }
 
-    void ActuLife(){
+    public void ActuLife(){
         if(currentHP == 5){
             heart1.SetActive(true);
             heart2.SetActive(true);
@@ -101,5 +106,11 @@ public class PlayerHPT1 : MonoBehaviour
         isInvulneary = true;
         yield return new WaitForSeconds(1f);
         isInvulneary = false;
+    }
+
+    IEnumerator death(){
+        anim.SetTrigger("Death");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("SceneTest", LoadSceneMode.Single);
     }
 }

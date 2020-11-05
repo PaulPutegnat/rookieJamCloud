@@ -33,6 +33,8 @@ public class EndScreenT1 : MonoBehaviour
     }
 
     IEnumerator gotonextscene(){
+        GameObject.Find("Player").GetComponent<PlayerHPT1>().currentHP += 1;
+        GameObject.Find("Player").GetComponent<PlayerHPT1>().ActuLife();
         if(number == 2){
             transition.SetActive(true);
             yield return new WaitForSeconds(0.5f);
@@ -50,5 +52,6 @@ public class EndScreenT1 : MonoBehaviour
             yield return new WaitForSeconds(1f);
             transition.SetActive(false);
         }
+
     }
 }

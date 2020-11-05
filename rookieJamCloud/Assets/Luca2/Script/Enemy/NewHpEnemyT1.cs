@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HpEnemyT1 : MonoBehaviour
+public class NewHpEnemyT1 : MonoBehaviour
 {
 public int maxHp;
     public int currentHP;
@@ -54,3 +54,4 @@ public int maxHp;
         GetComponent<SpriteRenderer>().color = Color.white;
     }
 }
+
