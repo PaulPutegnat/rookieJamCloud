@@ -9,6 +9,8 @@ public class DogT1 : MonoBehaviour
     public float speed;
     public float speedBase;
 
+    public GameObject damageArea;
+
     public bool stopFollow;
     void Start()
     {
@@ -30,4 +32,5 @@ public class DogT1 : MonoBehaviour
         target = targetR.transform.position;
         target.y -= 1;
     }
+
 }

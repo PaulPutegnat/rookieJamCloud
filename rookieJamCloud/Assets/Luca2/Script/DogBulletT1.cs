@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletT1 : MonoBehaviour
+public class DogBulletT1 : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
@@ -21,23 +21,12 @@ public class BulletT1 : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col){
+    void OnTriggerStay2D(Collider2D col){
         if(gameObject.tag == "Damage"){
             if (col.gameObject.tag == "Player"){  
             col.GetComponent<PlayerHPT1>().takeDamage(damage);
-            if(destroyOnContact){
-                Destroy(gameObject);
-            }
-        }
-        }
-
-        if(gameObject.tag == "PlayerBullet"){
-            if (col.gameObject.tag == "Enemy"){  
-            col.GetComponent<HpEnemyT1>().takeDamage(damage);
-            if(destroyOnContact){
-                Destroy(gameObject);
-            }
         }
         }
     }
+
 }

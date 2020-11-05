@@ -79,16 +79,14 @@ public class EnemyListT1 : MonoBehaviour
                  }
              
             if(enemy1 != 0){
-                int enemy2 = (Random.Range(0, 5));
+                int enemy2 = (Random.Range(1, 5));
              if(enemy2 == enemy1){
                  while(enemy2 == enemy1){
-                    enemy2 = (Random.Range(0, 5));
+                    enemy2 = (Random.Range(1, 5));
                  }
              }
              
-                 if(enemy2 == 0){
-                     mama1.SetActive(true);
-                 }else if(enemy2 == 1){
+                if(enemy2 == 1){
                      papy1.SetActive(true);
                  }else if(enemy2 == 2){
                      kid1.SetActive(true);
@@ -98,6 +96,8 @@ public class EnemyListT1 : MonoBehaviour
                      bicept1.SetActive(true);
                  }
             }
+
+            //GameObject.Find("Timer").GetComponent<TimerT1>().start = true;
             }
              
 
@@ -118,16 +118,14 @@ public class EnemyListT1 : MonoBehaviour
                  }
              
             if(enemy12 != 0){
-                int enemy22 = (Random.Range(0, 5));
+                int enemy22 = (Random.Range(1, 5));
              if(enemy22 == enemy12){
                  while(enemy22 == enemy12){
-                    enemy22 = (Random.Range(0, 5));
+                    enemy22 = (Random.Range(1, 5));
                  }
              }
              
-                 if(enemy22 == 0){
-                     mama2.SetActive(true);
-                 }else if(enemy22 == 1){
+                if(enemy22 == 1){
                      papy2.SetActive(true);
                  }else if(enemy22 == 2){
                      kid2.SetActive(true);

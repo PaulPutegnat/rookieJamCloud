@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerVictoryAnim
+  m_Name: ArrowNextAnim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 5b989ebd6db11c946bd282795d3e5ecb, type: 3}
-    - time: 0.41666666
-      value: {fileID: 21300000, guid: c5424bb13137c4943a3f6f69e88104f0, type: 3}
-    - time: 0.8333333
-      value: {fileID: 21300000, guid: c5424bb13137c4943a3f6f69e88104f0, type: 3}
+      value: {fileID: 21300000, guid: 47f408fbf5399a24eb0c8d72e24426d7, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 041d03fd112a79746b7446ea5359008d, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 041d03fd112a79746b7446ea5359008d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,15 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 5b989ebd6db11c946bd282795d3e5ecb, type: 3}
-    - {fileID: 21300000, guid: c5424bb13137c4943a3f6f69e88104f0, type: 3}
-    - {fileID: 21300000, guid: c5424bb13137c4943a3f6f69e88104f0, type: 3}
+    - {fileID: 21300000, guid: 47f408fbf5399a24eb0c8d72e24426d7, type: 3}
+    - {fileID: 21300000, guid: 041d03fd112a79746b7446ea5359008d, type: 3}
+    - {fileID: 21300000, guid: 041d03fd112a79746b7446ea5359008d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.84999996
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

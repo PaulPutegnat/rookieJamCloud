@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6967403705520349788}
   - component: {fileID: 2211467819900566452}
   - component: {fileID: 4586162124013505358}
+  - component: {fileID: 2273877693125286982}
   m_Layer: 0
   m_Name: EnemyBullet
   m_TagString: Damage
@@ -148,3 +149,20 @@ MonoBehaviour:
   damage: 1
   timeToDelete: 6
   destroyOnContact: 1
+--- !u!114 &2273877693125286982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431357705399016738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1e8ed681d3a8f42bfb4aa5f0c64de7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  n1: {fileID: 21300000, guid: f948caa9e20308643867dfb2b6861709, type: 3}
+  n2: {fileID: 21300000, guid: 1378a0389db288e49b776cd83db5278c, type: 3}
+  n3: {fileID: 21300000, guid: 631762a9edeed3745bce0467cd6b9294, type: 3}
+  n4: {fileID: 21300000, guid: 6cf6b275eeb4a5341869da7d702872fe, type: 3}
+  n5: {fileID: 21300000, guid: 8be7ab3baf828094a9ec7bd8120c9a37, type: 3}

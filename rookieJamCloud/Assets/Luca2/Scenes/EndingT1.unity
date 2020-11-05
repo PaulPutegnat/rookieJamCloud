@@ -1558,7 +1558,7 @@ MonoBehaviour:
   m_text: Retour au menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_sharedMaterial: {fileID: -4947825608961292097, guid: 5356c7033967599438b7677f46833615, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1940,7 +1940,7 @@ MonoBehaviour:
     Ton confinement est sauve'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
-  m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
+  m_sharedMaterial: {fileID: -4947825608961292097, guid: 5356c7033967599438b7677f46833615, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3715,7 +3715,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1980, y: 1080}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
