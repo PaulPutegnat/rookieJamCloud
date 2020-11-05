@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 119986174}
   - component: {fileID: 119986173}
   m_Layer: 5
-  m_Name: BouttonControles
+  m_Name: BouttonCommentJouer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,8 +213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000020981, y: 0.000024628}
-  m_SizeDelta: {x: 962.895, y: 138.88348}
+  m_AnchoredPosition: {x: 0, y: 0.00000095367}
+  m_SizeDelta: {x: 1177.9463, y: 120.825714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119986173
 MonoBehaviour:
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 420470214}
   - component: {fileID: 420470213}
   m_Layer: 5
-  m_Name: GameObject (1)
+  m_Name: Contour Comment Jouer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,8 +438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79991, y: -200}
-  m_SizeDelta: {x: 740.6886, y: 167.4226}
+  m_AnchoredPosition: {x: -0.000029802, y: -179}
+  m_SizeDelta: {x: 1344.8009, y: 142.79843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420470213
 MonoBehaviour:
@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 896407762}
   - component: {fileID: 896407761}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Contour Jouer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896407759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -647,8 +647,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000039339, y: 201}
-  m_SizeDelta: {x: 585.20874, y: 167.4266}
+  m_AnchoredPosition: {x: 0, y: 179.19995}
+  m_SizeDelta: {x: 460.44617, y: 134.59451}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &896407761
 MonoBehaviour:
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 1153744418}
   - component: {fileID: 1153744417}
   m_Layer: 5
-  m_Name: GameObject (2)
+  m_Name: Contour Retour a la Salle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -931,8 +931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79994, y: 0.000015259}
-  m_SizeDelta: {x: 983.6262, y: 167.4226}
+  m_AnchoredPosition: {x: -0, y: 0}
+  m_SizeDelta: {x: 1195.394, y: 141.15683}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153744417
 MonoBehaviour:
@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 1158230019}
   - component: {fileID: 1158230018}
   m_Layer: 5
-  m_Name: BouttonQuitter
+  m_Name: BouttonRetouralaSalle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1008,8 +1008,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000020206, y: -200}
-  m_SizeDelta: {x: 715.84827, y: 140.62453}
+  m_AnchoredPosition: {x: 0, y: -179}
+  m_SizeDelta: {x: 1324.8861, y: 120.85141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158230018
 MonoBehaviour:
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quitter
+  m_text: Retour a la salle
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
   m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
@@ -1433,14 +1433,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 8
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1585,8 +1585,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79993, y: 201}
-  m_SizeDelta: {x: 555.4875, y: 138.48032}
+  m_AnchoredPosition: {x: 0.000026703, y: 179.2}
+  m_SizeDelta: {x: 433.0888, y: 114.00058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383845339
 MonoBehaviour:
@@ -1698,7 +1698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1439378301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1817,10 +1817,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Resume :\nAidez Max a obtenir le dernier rouleau de papier toilette pour
-    sauver son confinement ! \r\nFrayez vous un chemin dans un supermarche bonde
-    d'emoji, pret a en decoudre.\r\nMax n'aura que quelques objets selectionnes au
-    hasard au debut du rayon pour se defendre.\r\n"
+  m_text: "Resume :\n\nFrayez vous un chemin dans un supermarche bonde d'emoji, pret
+    a en decoudre afin d\u2019obtenir le dernier rouleau de papier toilette a l\u2019aide
+    des 2 armes imposees au debut du premier round\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
   m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
@@ -1981,8 +1980,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2088,7 +2087,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Controles
+  m_text: Comment Jouer?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5356c7033967599438b7677f46833615, type: 2}
   m_sharedMaterial: {fileID: -5847562922504342131, guid: 5356c7033967599438b7677f46833615, type: 2}
@@ -2115,8 +2114,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
