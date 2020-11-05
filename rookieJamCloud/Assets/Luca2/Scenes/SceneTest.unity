@@ -4046,7 +4046,7 @@ PrefabInstance:
       objectReference: {fileID: 1211902979}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: speedV
-      value: -5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: Vbool
@@ -4054,7 +4054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: speedH
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
@@ -4645,8 +4645,8 @@ MonoBehaviour:
   DownLimit: {fileID: 808823217}
   LeftLimit: {fileID: 764387726}
   RightLimit: {fileID: 1257354142}
-  speedV: 6
-  speedH: 6
+  speedV: 4
+  speedH: 4
   Vbool: 0
   Hbool: 0
 --- !u!61 &614445679
@@ -7827,7 +7827,7 @@ PrefabInstance:
       objectReference: {fileID: 922879307}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: speedV
-      value: -5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: Vbool
@@ -7835,7 +7835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: speedH
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
@@ -12970,7 +12970,7 @@ PrefabInstance:
       objectReference: {fileID: 295350424}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: speedV
-      value: -5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: Vbool
@@ -12978,7 +12978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146125117998572252, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
       propertyPath: speedH
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 097f09e23d2973e4aa6bad5010ed4bf2, type: 3}
