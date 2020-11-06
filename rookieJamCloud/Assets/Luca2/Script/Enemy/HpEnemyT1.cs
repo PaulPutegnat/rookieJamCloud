@@ -50,6 +50,7 @@ public int maxHp;
 
     IEnumerator InvulFrame(){
         GetComponent<SpriteRenderer>().color = Color.red;
+        FindObjectOfType<AudioManagerT1>().Play("Touch!");
         yield return new WaitForSeconds(0.2f);
         GetComponent<SpriteRenderer>().color = Color.white;
     }
